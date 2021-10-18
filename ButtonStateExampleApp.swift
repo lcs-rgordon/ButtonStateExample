@@ -11,7 +11,7 @@ import SwiftUI
 struct ButtonStateExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QuestionView(item: Question.dummyData)
         }
     }
 }
